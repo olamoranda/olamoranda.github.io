@@ -1,0 +1,157 @@
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 15px;
+}
+
+.font, h1, h2, section {
+  font-family: 'Inknut Antiqua', serif;
+}
+
+img {
+  /* this is the limiting the widtht of the image sa it takes 100% widtht of teh parent maximum */
+  max-width:75%;
+}
+
+.img {
+  max-width: 100%;
+  padding-top: 40px;
+}
+
+.intro-img {
+  box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+nav {
+  background-color: #758d7c;
+}
+
+nav ul li, hr {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+nav ul, body, nav, hr {
+  margin: 0;
+  padding:0;
+}
+
+hr {
+  border:none;
+  height: 1px;
+  background-color: black;
+}
+
+/* start */
+ nav {
+    background-color: #758d7c;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    font-size: 14px;
+
+}
+
+ nav ul li {
+    display: inline-block;
+    margin: 0 15px; /*0 referes to top and bottom, 15px to left and right*/
+    padding: 0;
+    letter-spacing: 1px
+}
+
+nav a : hover {
+  text-decoration: underline;
+}
+
+ nav ul{
+  margin: 0 auto;
+  text-align: center;
+  padding:30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+/* koniec */
+
+header{
+   top: 70px;
+   position: relative;
+   margin-bottom: 70px;
+   background-image: url("../img/background3.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-y: -135px;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 130%;
+}
+
+/* ul li {
+  list-style: none;
+  margin: 10px 0;
+} */
+
+.button {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 10px 30px;
+  margin-top: 40px;
+  display: inline-block;
+  /* zaokrąglenie boków */
+  border-radius: 20px;
+  transition:background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.button:hover{
+  background-color: black;
+  color: white;
+}
+
+figcaption {
+  font-size: 10px;
+}
+
+.font2 {
+  text-align: center;
+  font-size: 50px;
+  line-hight: 150%;
+  margin-bottom: 120px;
+  list-style-type: none;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+footer {
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 50px;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+.background {
+  background-color: #758d7c;
+}
+
+section {
+  padding: 30px;
+}
